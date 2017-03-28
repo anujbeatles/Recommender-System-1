@@ -65,6 +65,6 @@ def sample_recommendation(model, data, user_ids):
         for x in top_items[:3]:
             print("         %s" % x)
 
-    sample_recommendation(model, data, [3, 25, 450])
+    sample_recommendation(model, data, [13, 55, 300])
 
 
